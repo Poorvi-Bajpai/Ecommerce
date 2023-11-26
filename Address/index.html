@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Add Address</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+     <form action="#">
+          <div class="container-sm">
+               <span class="form-control border border-primary" style="width: 580px;">
+                    <div class="box">
+                         <div class="row">
+                              <p style="color: rgb(7, 80, 250);">ADD A NEW ADDRESS</p>
+                         </div>
+                         <div class="row">
+                              <div class="col">
+                                   <!-- for current location -->
+                              </div>
+                         </div>
+                         <div class="row">
+                              <div class="col" title="Please Fill This Feild">
+                                   <input type="text" name="name" placeholder="Name">
+                              </div>
+                              <div class="col" title="Please Fill This Feild">
+                                   <input type="text" name="mobile" placeholder="10-digit mobile number">
+                              </div>
+                         </div><br>
+                         <div class="row">
+                              <div class="col" title="Please Fill This Feild">
+                                   <input type="number" name="pin" placeholder="Pincode">
+                              </div>
+                              <div class="col" title="Please Fill This Feild">
+                                   <input type="text" name="locality" placeholder="Locality">
+                              </div>
+                         </div><br>
+                         <div class="row" title="Please Fill This Feild">
+                              <textarea name="address" placeholder="Address(Area or Street)" class="form-control"
+                                   style="margin-left: 25px;"></textarea>
+                         </div><br>
+                         <div class="row">
+                              <div class="col" title="Please Fill This Feild">
+                                   <input type="text" name="city" placeholder="City/District/Town">
+                              </div>
+                              <div class="col" title="Please Fill This Feild">
+                                   <select style="width: 200px;">
+                                        <option>-select state-</option>
+                                        <option name="AnP">Andhra Pradesh</option>
+                                        <option name="ArP"> Arunachal Pradesh</option>
+                                        <option name="Assam"> Assam</option>
+                                        <option name="Bihar"> Bihar</option>
+                                        <option name="Chk"> Chhattisgarh</option>
+                                        <option name="Goa"> Goa</option>
+                                        <option name="Guj"> Gujarat</option>
+                                        <option name="Har"> Haryana</option>
+                                        <option name="HP"> Himachal Pradesh</option>
+                                        <option name="Jhar"> Jharkhand</option>
+                                        <option name="Kar"> Karnataka</option>
+                                        <option name="Kerala"> Kerala</option>
+                                        <option name="MP"> Madhya Pradesh</option>
+                                        <option name="Maharashtra"> Maharashtra</option>
+                                        <option name="Manipur"> Manipur</option>
+                                        <option name="Meghalaya"> Meghalaya</option>
+                                        <option name="Mizoram"> Mizoram</option>
+                                        <option name="Nagaland"> Nagaland</option>
+                                        <option name="Odisha"> Odisha</option>
+                                        <option name="Pnb"> Punjab</option>
+                                        <option name="Rajasthan"> Rajasthan</option>
+                                        <option name="Sikkim"> Sikkim</option>
+                                        <option name="TN"> Tamil Nadu</option>
+                                        <option name="Telangana"> Telangana</option>
+                                        <option name="Tripura"> Tripura</option>
+                                        <option name="UK"> Uttarakhand</option>
+                                        <option name="UP"> Uttar Pradesh</option>
+                                        <option name="WestB"> West Bengal</option>
+                                   </select>
+                              </div>
+                         </div><br>
+                         <div class="row">
+                              <div class="col" title="Please Fill This Feild">
+                                   <input type="text" name="landmark" placeholder="Landmark(Optional)">
+                              </div>
+                              <div class="col" title="Please Fill This Feild">
+                                   <input type="text" name="alternate" placeholder="Alternate Phone (Optional)">
+                              </div>
+                         </div><br>
+                         <div class="row" style="margin-right: 320px;">
+                              <p>Address Type</p>
+                              <div class="col" title="Please Fill This Feild">
+                                   <input type="radio" name="address" value="home">Home
+                                   <input type="radio" name="address" value="work">Work
+                              </div>
+                         </div></br>
+                         <div class="row">
+                              <div class="col">
+                                   <input type="submit" class="form-control" value="SAVE">
+                              </div>
+                              <div class="col">
+                                   <input type="reset" class="form-control" value="CANCEL">
+                              </div>
+                         </div>
+                    </div>
+               </span>
+
+          </div>
+     </form>
+</body>
+
+</html>
